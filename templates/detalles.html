@@ -1,0 +1,18 @@
+{%extends "layout.html"%}
+{%block container%}
+
+{%import "_macros.html" as macro%}
+
+
+<div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
+    <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Nombre: {{nombre}}</h5>
+    <h3 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Apellido: {{apaterno}}</h3>
+    <h3 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Correo: {{email}}</h3>
+
+    
+    <a href="index" class="bg-green-500 text-white px-4 py-2 rounded">
+        Regresar
+    </a>
+</div>
+
+{%endblock%}

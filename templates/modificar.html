@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block container %}
+
+{% import "_macros.html" as macro %}
+
+<div class="py-2 relative overflow-x-auto sm:rounded-lg text-black">
+
+<form action="" method="POST" novalidate class="max-w-sm mx-auto">
+
+    {{form.csrf_token}}
+    <input type="hidden" name="csrf_token" value="{{ csrf_token()}}" />
+
+  <div class="relative z-0 w-full mb-5 group">
+    {{ macro.campoNuevo(form.id,class="block py-2.5 px-3 w-full text-sm text-gray-900 bg-transparent border-2 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600") }}
+  </div>
+
+  <div class="relative z-0 w-full mb-5 group">
+    {{ macro.campoNuevo(form.nombre,class="block py-2.5 px-3 w-full text-sm text-gray-900 bg-transparent border-2 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600") }}
+  </div>
+
+  <div class="relative z-0 w-full mb-5 group">
+    {{ macro.campoNuevo(form.apaterno,class="block py-2.5 px-3 w-full text-sm text-gray-900 bg-transparent border-2 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600") }}
+  </div>
+
+  <div class="relative z-0 w-full mb-5 group">
+    {{ macro.campoNuevo(form.email, class="block py-2.5 px-3 w-full text-sm text-gray-900 bg-transparent border-2 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600" ) }}
+  </div>
+
+  <div class="flex gap-3">
+    <input
+        type="submit"
+        id="btn1"
+        name="btn1"
+        value="Modificar"
+        class="text-white bg-blue-700 hover:bg-blue-800 px-4 py-2 rounded"
+    />
+
+    <a href="index" class="bg-green-500 text-white px-4 py-2 rounded">
+        Cancelar
+    </a>
+  </div>
+
+</form>
+
+</div>
+
+{% endblock %}
