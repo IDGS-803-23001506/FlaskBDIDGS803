@@ -1,9 +1,28 @@
 {
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.2.1"
   },
   "dependencies": {
     "flowbite": "^4.0.1"
-  }
+  },
+  "name": "flaskbdidgs803",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDGS-803-23001506/FlaskBDIDGS803.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IDGS-803-23001506/FlaskBDIDGS803/issues"
+  },
+  "homepage": "https://github.com/IDGS-803-23001506/FlaskBDIDGS803#readme"
 }
