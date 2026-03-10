@@ -1,0 +1,643 @@
+[
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "forms",
+        "description": "forms",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "Alumnos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Curso",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Maestros",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Alumnos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Maestros",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Alumnos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {}
+    },
+    {
+        "label": "CSRFProtect",
+        "importPath": "flask_wtf.csrf",
+        "description": "flask_wtf.csrf",
+        "isExtraImport": true,
+        "detail": "flask_wtf.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "alumnos",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "alumnos",
+        "description": "alumnos",
+        "detail": "alumnos",
+        "documentation": {}
+    },
+    {
+        "label": "alumnos",
+        "importPath": "alumnos.routes",
+        "description": "alumnos.routes",
+        "isExtraImport": true,
+        "detail": "alumnos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "DevelopmentConfig",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "cursos",
+        "importPath": "cursos.routes",
+        "description": "cursos.routes",
+        "isExtraImport": true,
+        "detail": "cursos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "maestros",
+        "importPath": "maestros.routes",
+        "description": "maestros.routes",
+        "isExtraImport": true,
+        "detail": "maestros.routes",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "EmailField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "validators",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "listadoAlumnos",
+        "kind": 2,
+        "importPath": "alumnos.routes",
+        "description": "alumnos.routes",
+        "peekOfCode": "def listadoAlumnos():\n    create_form=forms.userForm(request.form)\n    alumno=Alumnos.query.all()\n    return render_template(\"alumnos/listadoAlumnos.html\", form=create_form,alumno=alumno)\n@alumnos.route(\"/insertarAlumnos\",  methods=['GET','POST'])\ndef crearAlumnos():\n    create_form=forms.userForm(request.form)\n    if request.method==\"POST\":\n        alum=Alumnos(nombre=create_form.nombre.data,\n                     apellidos=create_form.apellidos.data,",
+        "detail": "alumnos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "crearAlumnos",
+        "kind": 2,
+        "importPath": "alumnos.routes",
+        "description": "alumnos.routes",
+        "peekOfCode": "def crearAlumnos():\n    create_form=forms.userForm(request.form)\n    if request.method==\"POST\":\n        alum=Alumnos(nombre=create_form.nombre.data,\n                     apellidos=create_form.apellidos.data,\n                     email=create_form.email.data,\n                     telefono=create_form.telefono.data)\n        db.session.add(alum)\n        db.session.commit()\n        return redirect(url_for('alumnos.listadoAlumnos'))",
+        "detail": "alumnos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "detalles",
+        "kind": 2,
+        "importPath": "alumnos.routes",
+        "description": "alumnos.routes",
+        "peekOfCode": "def detalles():\n    if request.method=='GET':\n        id=request.args.get('id')\n        alum1=db.session.query(Alumnos).filter(Alumnos.id==id).first()\n        id=request.args.get('id')\n        nombre=alum1.nombre\n        apellidos=alum1.apellidos\n        email=alum1.email\n        telefono=alum1.telefono\n    return render_template(\"alumnos/detalles.html\", nombre=nombre,apellidos=apellidos,email=email, telefono=telefono)",
+        "detail": "alumnos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "modificar",
+        "kind": 2,
+        "importPath": "alumnos.routes",
+        "description": "alumnos.routes",
+        "peekOfCode": "def modificar():\n    create_form=forms.userForm(request.form)\n    if request.method=='GET':\n        id=request.args.get('id')\n        alum1=db.session.query(Alumnos).filter(Alumnos.id==id).first()\n        create_form.id.data=request.args.get('id')\n        create_form.nombre.data=alum1.nombre\n        create_form.apellidos.data=alum1.apellidos\n        create_form.email.data=alum1.email\n        create_form.telefono.data=alum1.telefono",
+        "detail": "alumnos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar",
+        "kind": 2,
+        "importPath": "alumnos.routes",
+        "description": "alumnos.routes",
+        "peekOfCode": "def eliminar():\n    create_form=forms.userForm(request.form)\n    if request.method=='GET':\n        id=request.args.get('id')\n        alum1=db.session.query(Alumnos).filter(Alumnos.id==id).first()\n        create_form.id.data=request.args.get('id')\n        create_form.nombre.data=alum1.nombre\n        create_form.apellidos.data=alum1.apellidos\n        create_form.email.data=alum1.email\n        create_form.telefono.data=alum1.telefono",
+        "detail": "alumnos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "listadoCursos",
+        "kind": 2,
+        "importPath": "cursos.routes",
+        "description": "cursos.routes",
+        "peekOfCode": "def listadoCursos():\n    create_form = forms.cursoForm(request.form)\n    lista_cursos = Curso.query.all()\n    return render_template(\"cursos/listadoCursos.html\", form=create_form, cursos=lista_cursos)\n@cursos.route(\"/insertarCurso\", methods=['GET', 'POST'])\ndef crearCurso():\n    create_form = forms.cursoForm(request.form)\n    maestros = Maestros.query.all()\n    if request.method == \"POST\":\n        cur = Curso(",
+        "detail": "cursos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "crearCurso",
+        "kind": 2,
+        "importPath": "cursos.routes",
+        "description": "cursos.routes",
+        "peekOfCode": "def crearCurso():\n    create_form = forms.cursoForm(request.form)\n    maestros = Maestros.query.all()\n    if request.method == \"POST\":\n        cur = Curso(\n            nombre=create_form.nombre.data,\n            descripcion=create_form.descripcion.data,\n            maestro_id=create_form.maestro_id.data\n        )\n        db.session.add(cur)",
+        "detail": "cursos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "detalles",
+        "kind": 2,
+        "importPath": "cursos.routes",
+        "description": "cursos.routes",
+        "peekOfCode": "def detalles():\n    if request.method == 'GET':\n        id = request.args.get('id')\n        cur = db.session.query(Curso).filter(Curso.id == id).first()\n        nombre = cur.nombre\n        descripcion = cur.descripcion\n        maestro = cur.maestro.nombre + ' ' + cur.maestro.apellidos if cur.maestro else 'N/A'\n        alumnos = cur.alumnos\n    return render_template(\"cursos/detalles.html\",\n                           nombre=nombre,",
+        "detail": "cursos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "modificar",
+        "kind": 2,
+        "importPath": "cursos.routes",
+        "description": "cursos.routes",
+        "peekOfCode": "def modificar():\n    create_form = forms.cursoForm(request.form)\n    maestros = Maestros.query.all()\n    if request.method == 'GET':\n        id = request.args.get('id')\n        cur = db.session.query(Curso).filter(Curso.id == id).first()\n        create_form.id.data = request.args.get('id')\n        create_form.nombre.data = cur.nombre\n        create_form.descripcion.data = cur.descripcion\n        create_form.maestro_id.data = cur.maestro_id",
+        "detail": "cursos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar",
+        "kind": 2,
+        "importPath": "cursos.routes",
+        "description": "cursos.routes",
+        "peekOfCode": "def eliminar():\n    create_form = forms.cursoForm(request.form)\n    if request.method == 'GET':\n        id = request.args.get('id')\n        cur = db.session.query(Curso).filter(Curso.id == id).first()\n        create_form.id.data = request.args.get('id')\n        create_form.nombre.data = cur.nombre\n        create_form.descripcion.data = cur.descripcion\n        create_form.maestro_id.data = cur.maestro_id\n    if request.method == 'POST':",
+        "detail": "cursos.routes",
+        "documentation": {}
+    },
+    {
+        "label": "listado_maestros",
+        "kind": 2,
+        "importPath": "maestros.routes",
+        "description": "maestros.routes",
+        "peekOfCode": "def listado_maestros():\n    create_form = forms.maesForm(request.form)\n    lista_maestros = Maestros.query.all()\n    return render_template(\n        \"maestros/listadoMaes.html\",\n        form=create_form,\n        maestros=lista_maestros\n    )\n@maestros.route(\"/insertMaestros\",  methods=['GET','POST'])\ndef insert_maestros():",
+        "detail": "maestros.routes",
+        "documentation": {}
+    },
+    {
+        "label": "insert_maestros",
+        "kind": 2,
+        "importPath": "maestros.routes",
+        "description": "maestros.routes",
+        "peekOfCode": "def insert_maestros():\n    create_form=forms.maesForm(request.form)\n    if request.method==\"POST\":\n        maes=Maestros(nombre=create_form.nombre.data,\n                     apellidos=create_form.apellidos.data,\n                     especialidad=create_form.especialidad.data,\n                     email=create_form.email.data)\n        db.session.add(maes)\n        db.session.commit()\n        return redirect(url_for('maestros.listado_maestros'))",
+        "detail": "maestros.routes",
+        "documentation": {}
+    },
+    {
+        "label": "detalles",
+        "kind": 2,
+        "importPath": "maestros.routes",
+        "description": "maestros.routes",
+        "peekOfCode": "def detalles():\n    if request.method=='GET':\n        matricula=request.args.get('matricula')\n        maes=db.session.query(Maestros).filter(Maestros.matricula==matricula).first()\n        matricula=request.args.get('id')\n        nombre=maes.nombre\n        apellidos=maes.apellidos\n        especialidad=maes.especialidad\n        email=maes.email\n    return render_template(\"maestros/detalleMaestros.html\", nombre=nombre,apellidos=apellidos,especialidad=especialidad, email=email)",
+        "detail": "maestros.routes",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar",
+        "kind": 2,
+        "importPath": "maestros.routes",
+        "description": "maestros.routes",
+        "peekOfCode": "def eliminar():\n    create_form=forms.maesForm(request.form)\n    if request.method=='GET':\n        matricula=request.args.get('matricula')\n        maes=db.session.query(Maestros).filter(Maestros.matricula==matricula).first()\n        create_form.matricula.data=request.args.get('matricula')\n        create_form.nombre.data=maes.nombre\n        create_form.apellidos.data=maes.apellidos\n        create_form.especialidad.data=maes.especialidad\n        create_form.email.data=maes.email",
+        "detail": "maestros.routes",
+        "documentation": {}
+    },
+    {
+        "label": "modificar",
+        "kind": 2,
+        "importPath": "maestros.routes",
+        "description": "maestros.routes",
+        "peekOfCode": "def modificar():\n    create_form=forms.maesForm(request.form)\n    if request.method=='GET':\n        matricula=request.args.get('matricula')\n        maes=db.session.query(Maestros).filter(Maestros.matricula==matricula).first()\n        create_form.matricula.data=request.args.get('matricula')\n        create_form.nombre.data=maes.nombre\n        create_form.apellidos.data=maes.apellidos\n        create_form.especialidad.data=maes.especialidad\n        create_form.email.data=maes.email",
+        "detail": "maestros.routes",
+        "documentation": {}
+    },
+    {
+        "label": "perfil",
+        "kind": 2,
+        "importPath": "maestros.routes",
+        "description": "maestros.routes",
+        "peekOfCode": "def perfil(nombre):\n    return f\"Perfil de {nombre}\"",
+        "detail": "maestros.routes",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    create_form=forms.userForm(request.form)\n    alumno=Alumnos.query.all()\n    return render_template(\"index.html\", form=create_form,alumno=alumno)\n@app.errorhandler(404)\ndef page_not_found(e):\n    return render_template(\"404.html\"),404\nif __name__ == '__main__':\n    csrf.init_app(app)\n    with app.app_context():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "page_not_found",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def page_not_found(e):\n    return render_template(\"404.html\"),404\nif __name__ == '__main__':\n    csrf.init_app(app)\n    with app.app_context():\n        db.create_all()\n    app.run()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config.from_object(DevelopmentConfig)\napp.register_blueprint(maestros)\napp.register_blueprint(alumnos)\napp.register_blueprint(cursos)\ndb.init_app(app)\nmigrate = Migrate(app, db)\ncsrf = CSRFProtect()\n@app.route(\"/\", methods=['GET','POST'])\n@app.route(\"/index\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "migrate = Migrate(app, db)\ncsrf = CSRFProtect()\n@app.route(\"/\", methods=['GET','POST'])\n@app.route(\"/index\")\ndef index():\n    create_form=forms.userForm(request.form)\n    alumno=Alumnos.query.all()\n    return render_template(\"index.html\", form=create_form,alumno=alumno)\n@app.errorhandler(404)\ndef page_not_found(e):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "csrf",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "csrf = CSRFProtect()\n@app.route(\"/\", methods=['GET','POST'])\n@app.route(\"/index\")\ndef index():\n    create_form=forms.userForm(request.form)\n    alumno=Alumnos.query.all()\n    return render_template(\"index.html\", form=create_form,alumno=alumno)\n@app.errorhandler(404)\ndef page_not_found(e):\n    return render_template(\"404.html\"),404",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class Config(object):\n    SECRET_KEY=\"ClaveSecreta\"\n    SESSION_COOKIE_SECURE=False\nclass DevelopmentConfig(Config):\n    DEBUG=True\n    SQLALCHEMY_DATABASE_URI='mysql+pymysql://root:root@127.0.0.1/bdidgs803'\n    SQLALCHEMY_TRACK_MODIFICATIONS=False",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DevelopmentConfig",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class DevelopmentConfig(Config):\n    DEBUG=True\n    SQLALCHEMY_DATABASE_URI='mysql+pymysql://root:root@127.0.0.1/bdidgs803'\n    SQLALCHEMY_TRACK_MODIFICATIONS=False",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "userForm",
+        "kind": 6,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "class userForm(Form):\n    id=IntegerField('id')\n    nombre=StringField('Nombre',[validators.DataRequired(message='El campo es requerido'),validators.length(min=4,max=10,message='Ingrese nombre valido')])\n    apellidos=StringField('Apellidos',[validators.DataRequired(message='El campo es requerido')])\n    email=EmailField('Correo',[validators.Email(message='Inbgresa un correo valido')])\n    telefono=StringField('Telefono',[validators.DataRequired(message='El campo es requerido'),validators.length(min=10,max=10,message='Ingrese telefono valido')])\nclass maesForm(Form):\n    matricula=IntegerField('Matricula')\n    nombre=StringField('Nombre',[validators.DataRequired(message='El campo es requerido'),validators.length(min=4,max=10,message='Ingrese nombre valido')])\n    apellidos=StringField('Apellidos',[validators.DataRequired(message='El campo es requerido')])",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "maesForm",
+        "kind": 6,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "class maesForm(Form):\n    matricula=IntegerField('Matricula')\n    nombre=StringField('Nombre',[validators.DataRequired(message='El campo es requerido'),validators.length(min=4,max=10,message='Ingrese nombre valido')])\n    apellidos=StringField('Apellidos',[validators.DataRequired(message='El campo es requerido')])\n    especialidad=EmailField('Especialidad',[validators.Email(message='Inbgresa un correo valido')])\n    email=StringField('Email',[validators.DataRequired(message='El campo es requerido'),validators.length(min=10,message='Ingrese telefono valido')])",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "Alumnos",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Alumnos(db.Model):\n    __tablename__=\"alumnos\"\n    id=db.Column(db.Integer,primary_key=True)\n    nombre=db.Column(db.String(50))\n    apellidos=db.Column(db.String(50))\n    email=db.Column(db.String(100))\n    telefono=db.Column(db.String(50))\n    creates_date = db.Column(db.DateTime, default=datetime.datetime.now)\n    cursos = db.relationship(\n        'Curso',",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Maestros",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Maestros(db.Model):\n    __tablename__='maestros'\n    matricula=db.Column(db.Integer, primary_key=True)\n    nombre=db.Column(db.String(50))\n    apellidos=db.Column(db.String(50))\n    especialidad=db.Column(db.String(50))\n    email=db.Column(db.String(50))\n    cursos = db.relationship('Curso', back_populates='maestros')\nclass Curso(db.Model):\n    __tablename__= 'cursos'",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Curso",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Curso(db.Model):\n    __tablename__= 'cursos'\n    id = db.Column(db.Integer, primary_key=True)\n    nombre = db.Column(db.String(150), nulleable=False)\n    descripcion = db.Column(db.Text)\n    maestro_id = db.Column(\n        db.Integer,\n        db.ForeignKey('maestros.matricula'),\n        nulleable=False\n    )",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Inscripcione",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Inscripciones (db.Model):\n    __tablename__='inscripciones'\n    id = db.Column(db.Integer, primary_key=True)\n    alumno_id = db.Column(\n        db.Integer,\n        db.ForeignKey('alumnos.id'),\n        nulleable=False\n    )\n    curso_id = db.Column(\n        db.Integer,",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "db = SQLAlchemy()\nclass Alumnos(db.Model):\n    __tablename__=\"alumnos\"\n    id=db.Column(db.Integer,primary_key=True)\n    nombre=db.Column(db.String(50))\n    apellidos=db.Column(db.String(50))\n    email=db.Column(db.String(100))\n    telefono=db.Column(db.String(50))\n    creates_date = db.Column(db.DateTime, default=datetime.datetime.now)\n    cursos = db.relationship(",
+        "detail": "models",
+        "documentation": {}
+    }
+]
