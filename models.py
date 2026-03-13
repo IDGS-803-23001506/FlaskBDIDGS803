@@ -27,25 +27,25 @@ class Maestros(db.Model):
     especialidad=db.Column(db.String(50))
     email=db.Column(db.String(50))
     
-    cursos = db.relationship('Curso', back_populates='maestros')
+    cursos = db.relationship('Curso', back_populates='maestro')
     
 class Curso(db.Model):
     __tablename__= 'cursos'
     
     id = db.Column(db.Integer, primary_key=True)
-    nombre = db.Column(db.String(150), nulleable=False)
+    nombre = db.Column(db.String(150), nullable=False)
     descripcion = db.Column(db.Text)
     
     maestro_id = db.Column(
         db.Integer,
         db.ForeignKey('maestros.matricula'),
-        nulleable=False
+        nullable=False
     )
     
-    maestro = db.relationship('Maestro', back_populates='cursos')
+    maestro = db.relationship('Maestros', back_populates='cursos')
     
     alumnos = db.relationship(
-        'Alumno',
+        'Alumnos',
         secondary='inscripciones',
         back_populates='cursos'
     )
@@ -58,21 +58,21 @@ class Inscripciones (db.Model):
     alumno_id = db.Column(
         db.Integer,
         db.ForeignKey('alumnos.id'),
-        nulleable=False
+        nullable=False
     )
     
     curso_id = db.Column(
         db.Integer,
         db.ForeignKey('cursos.id'),
-        nulleable=False
+        nullable=False
     )
     
     fecha_inscripcion = db.Column(
-        db.Datetime,
+        db.DateTime,
         server_default=db.func.now()
     )
     
     __table_args__=(
         db.UniqueConstraint('alumno_id', 'curso_id',
-                            name = 'uq_alumno_curso')
+                            name = 'uq_alumno_curso'),
     )

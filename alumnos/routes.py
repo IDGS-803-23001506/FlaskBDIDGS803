@@ -1,7 +1,7 @@
 from flask import redirect, render_template, request, url_for
 
 import forms
-from models import Alumnos, db
+from models import Alumnos, Curso, db
 
 from . import alumnos
 
@@ -37,7 +37,8 @@ def detalles():
         apellidos=alum1.apellidos
         email=alum1.email
         telefono=alum1.telefono
-    return render_template("alumnos/detalles.html", nombre=nombre,apellidos=apellidos,email=email, telefono=telefono)
+        curso=alum1.cursos if alum1.cursos else 'No hay cursos'
+    return render_template("alumnos/detalles.html", nombre=nombre,apellidos=apellidos,email=email, telefono=telefono, curso=curso)
 
 @alumnos.route("/modificar", methods=['GET','POST'])
 def modificar():
@@ -82,3 +83,32 @@ def eliminar():
         return redirect (url_for('alumnos.listadoAlumnos'))
     return render_template("alumnos/eliminar.html", form=create_form)
 
+@alumnos.route("/inscribirAlumno", methods=['GET', 'POST'])
+def inscribir():
+    if request.method == 'GET':
+        id = request.args.get('id')
+        alum = db.session.query(Alumnos).filter(Alumnos.id == id).first()
+        todos_cursos = Curso.query.all()
+
+        inscritos_ids = [c.id for c in alum.cursos]
+        return render_template("alumnos/inscribir.html",
+                               alumno=alum,
+                               cursos=todos_cursos,
+                               inscritos_ids=inscritos_ids)
+
+    if request.method == 'POST':
+        id = request.form.get('id')
+        alum = db.session.query(Alumnos).filter(Alumnos.id == id).first()
+
+        seleccionados = request.form.getlist('cursos')
+
+        alum.cursos = []
+        for curso_id in seleccionados:
+            curso = Curso.query.get(int(curso_id))
+            if curso:
+                alum.cursos.append(curso)
+
+        db.session.commit()
+        return redirect(url_for('alumnos.listadoAlumnos'))
+
+    return redirect(url_for('alumnos.listadoAlumnos'))

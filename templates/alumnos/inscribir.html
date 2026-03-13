@@ -1,0 +1,62 @@
+{%extends "layout.html"%}
+{%block container%}
+
+<div class="py-2 relative overflow-x-auto sm:rounded-lg text-black">
+
+    <form action="" method="POST" class="max-w-lg">
+
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <input type="hidden" name="id" value="{{alumno.id}}" />
+
+        <h3 class="mb-3 text-lg font-semibold text-heading">Selecciona los cursos:</h3>
+
+        <div class="relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default mb-5">
+            <table class="w-full text-sm text-left text-body">
+                <thead class="text-sm text-body bg-neutral-secondary-soft border-b border-default">
+                    <tr>
+                        <th class="px-6 py-3 font-medium">Inscribir</th>
+                        <th class="px-6 py-3 font-medium">Curso</th>
+                        <th class="px-6 py-3 font-medium">Descripción</th>
+                        <th class="px-6 py-3 font-medium">Maestro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%for curso in cursos%}
+                    <tr class="bg-neutral-primary border-b border-default">
+                        <td class="px-6 py-4">
+                            <input
+                                type="checkbox"
+                                name="cursos"
+                                value="{{curso.id}}"
+                                class="w-4 h-4 accent-blue-600"
+                                {%if curso.id in inscritos_ids%} checked {%endif%}
+                            />
+                        </td>
+                        <td class="px-6 py-4 font-medium text-heading whitespace-nowrap">
+                            {{curso.nombre}}
+                        </td>
+                        <td class="px-6 py-4">{{curso.descripcion}}</td>
+                        <td class="px-6 py-4">
+                            {{curso.maestro.nombre ~ ' ' ~ curso.maestro.apellidos if curso.maestro else 'N/A'}}
+                        </td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="flex gap-3">
+            <input
+                type="submit"
+                value="Guardar Inscripciones"
+                class="text-white bg-blue-700 hover:bg-blue-800 px-4 py-2 rounded"
+            />
+            <a href="alumnos" class="bg-green-500 text-white px-4 py-2 rounded">
+                Cancelar
+            </a>
+        </div>
+
+    </form>
+</div>
+
+{%endblock%}

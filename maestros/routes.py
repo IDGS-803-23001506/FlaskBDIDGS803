@@ -40,7 +40,8 @@ def detalles():
         apellidos=maes.apellidos
         especialidad=maes.especialidad
         email=maes.email
-    return render_template("maestros/detalleMaestros.html", nombre=nombre,apellidos=apellidos,especialidad=especialidad, email=email)
+        cursos=maes.cursos
+    return render_template("maestros/detalleMaestros.html", nombre=nombre,apellidos=apellidos,especialidad=especialidad, email=email,cursos=cursos)
 
 @maestros.route("/eliminarMastros", methods=['GET','POST'])
 def eliminar():
@@ -56,6 +57,8 @@ def eliminar():
     if request.method=='POST':
         matricula=request.args.get('matricula')
         maes=Maestros.query.get(matricula)
+        if maes.cursos:
+            return "No puedes eliminar un maestro que tiene cursos asignados"
         db.session.delete(maes)
         db.session.commit()
         return redirect (url_for('maestros.listado_maestros'))

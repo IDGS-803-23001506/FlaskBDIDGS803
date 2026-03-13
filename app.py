@@ -20,19 +20,13 @@ migrate = Migrate(app, db)
 csrf = CSRFProtect()
 
 
-
-@app.route("/", methods=['GET','POST'])
-@app.route("/index")
-def index():
-    create_form=forms.userForm(request.form)
-    alumno=Alumnos.query.all()
-    return render_template("index.html", form=create_form,alumno=alumno)
-
-
-
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template("404.html"),404
+
+@app.route("/")
+def index():
+    return render_template("index.html")
 
 if __name__ == '__main__':
     csrf.init_app(app)

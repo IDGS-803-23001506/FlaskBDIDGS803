@@ -1,0 +1,27 @@
+{%extends "layout.html"%}
+{%block container%}
+
+{%import "_macros.html" as macro%}
+
+<div class="bg-neutral-primary-soft block max-w-md p-6 mt-4 border border-default rounded-base shadow-xs">
+    <h3 class="mb-3 font-semibold tracking-tight text-heading leading-8">{{nombre}}</h3>
+    <h5 class="mb-3 font-semibold tracking-tight text-heading leading-8">Descripción: {{descripcion}}</h5>
+    <h5 class="mb-3 font-semibold tracking-tight text-heading leading-8">Maestro: {{maestro}}</h5>
+
+    <h5 class="mb-2 mt-10 font-semibold tracking-tight text-heading leading-8">Alumnos inscritos:</h5>
+    {% if alumnos %}
+    <ul class="mb-4 list-disc list-inside mb-6">
+        {% for a in alumnos %}
+            <li style="margin-top: 0.5rem; margin-bottom: 0.5rem;">{{a.nombre}} {{a.apellidos}} — {{a.email}}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p class="mb-4 text-body">Sin alumnos inscritos.</p>
+    {% endif %}
+
+    <a href="cursos" class="inline-block bg-green-500 text-white px-6 py-2 mt-8 rounded">
+        Regresar
+    </a>
+</div>
+
+{%endblock%}

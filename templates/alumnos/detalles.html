@@ -4,12 +4,18 @@
 {%import "_macros.html" as macro%}
 
 
-<div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs">
-    <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Nombre: {{nombre}}</h5>
-    <h3 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Apellido: {{apellidos}}</h3>
-    <h3 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Correo: {{email}}</h3>
-    <h3 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Telefono: {{telefono}}</h3>
+<div class="bg-neutral-primary-soft block w-lg p-6 border border-default rounded-base shadow-xs">
+    <h5 class="mb-3 font-semibold tracking-tight text-heading leading-8">Nombre: {{nombre}}</h5>
+    <h3 class="mb-3 font-semibold tracking-tight text-heading leading-8">Apellido: {{apellidos}}</h3>
+    <h3 class="mb-3 font-semibold tracking-tight text-heading leading-8">Correo: {{email}}</h3>
+    <h3 class="mb-3 font-semibold tracking-tight text-heading leading-8">Telefono: {{telefono}}</h3>
 
+    <h3 class="mb-3 font-semibold tracking-tight text-heading leading-8">Cursos inscritos:</h3>
+    <ul class="mb-4 list-disc list-inside mb-6">
+        {% for c in curso %}
+            <li style="margin-top: 0.5rem; margin-bottom: 0.5rem;">{{c.nombre}} </li>
+        {% endfor %}
+    </ul>
     
     <a href="alumnos" class="bg-green-500 text-white px-4 py-2 rounded">
         Regresar

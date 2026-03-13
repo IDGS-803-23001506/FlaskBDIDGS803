@@ -1,0 +1,69 @@
+{%extends "layout.html"%}
+{%block container%}
+
+<div class="relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default mt-5">
+
+    <a href="/insertarCurso" class="inline-flex items-center w-full gap-2 text-white bg-green-500 hover:bg-green-600 font-medium rounded-base text-sm px-4 py-2.5 focus:outline-none">
+        Nuevo
+    </a>
+
+    <table class="w-full text-sm text-left rtl:text-right text-body">
+
+        <th scope="row" ead class="text-sm text-body bg-neutral-secondary-soft border-b rounded-base border-default">
+            <tr>
+                <th scope="row" class="px-6 py-3 font-medium">
+                    Nombre
+                </th>
+                <th scope="row" class="px-6 py-3 font-medium">
+                    Descripción
+                </th>
+                <th scope="row" class="px-6 py-3 font-medium">
+                    Maestro
+                </th>
+                <th scope="row" class="px-6 py-3 font-medium">
+                    Editar
+                </th>
+                <th scope="row" class="px-6 py-3 font-medium">
+                    Detalles
+                </th>
+                <th scope="row" class="px-6 py-3 font-medium">
+                    Eliminar
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {%for cur in cursos%}
+            <tr class="bg-neutral-primary border-b border-default">
+                <th scope="row" class="px-6 py-4 font-medium text-heading whitespace-nowrap">
+                    {{cur.nombre}}
+                </th>
+                <td class="px-6 py-4">{{cur.descripcion}}</td>
+                <td class="px-6 py-4">
+                    {{cur.maestro.nombre ~ ' ' ~ cur.maestro.apellidos if cur.maestro else 'N/A'}}
+                </td>
+
+                <td class="px-6 py-4">
+                    <a href="modificarCurso?id={{cur.id}}" class="text-white bg-success -500 hover:bg-success -600 rounded-base text-sm px-4 py-2">
+                        Editar
+                    </a>
+                </td>
+
+                <td class="px-6 py-4">
+                    <a href="detallesCurso?id={{cur.id}}" class="text-white bg-purple-500 hover:bg-purple-600 rounded-base text-sm px-4 py-2">
+                        Detalles
+                    </a>
+                </td>
+
+                <td class="px-6 py-4">
+                    <a href="eliminarCurso?id={{cur.id}}" class="text-white bg-red-500 hover:bg-red-600 rounded-base text-sm px-4 py-2">
+                        Eliminar
+                    </a>
+                </td>
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+</div>
+
+{%endblock%}
